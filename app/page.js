@@ -4,8 +4,8 @@ import {useState} from 'react';
 const phone='07968225363';
 const displayPhone='07968 22 53 63';
 const heroImage='https://www.expertcirc.co.uk/wp-content/uploads/2016/10/1.png';
-const familyImage='https://www.expertcirc.co.uk/wp-content/uploads/2016/10/3-1.jpg';
-const careImage='https://www.expertcirc.co.uk/wp-content/uploads/2016/10/4-1.png';
+const familyImage='https://c.pxhere.com/photos/3d/f1/motherhood_baby_newborn_baby_mother_baby_happy_mother_mom_and_child_parent_mom-825873.jpg!d';
+const careImage='https://c.pxhere.com/photos/78/eb/family_kids_baby_newborn_together_happy_mother_father-934029.jpg!d';
 
 export default function Home(){
  const [open,setOpen]=useState(false);
@@ -16,9 +16,9 @@ export default function Home(){
 
   <section className="intro" id="about"><div className="introTitle"><h2>Professional, experienced and focused on your family's care.</h2></div><div className="introCopy"><p>With more than 20 years' experience, Luton Circumcision provides a professional circumcision service in Luton.</p><p>Every appointment is approached with care and discretion, with clear guidance and ongoing aftercare following the procedure.</p><div className="stats"><div><strong>20+</strong><span>Years' experience</span></div><div><strong>24/7</strong><span>Aftercare support</span></div><div><strong>1</strong><span>Luton location</span></div></div></div></section>
 
-  <section className="imageBand"><figure><img src={familyImage} alt="Happy family with baby"/></figure><div className="imageBandCopy"><p className="statement">Experience, reassurance and clear support.</p><p>The service is designed to make the appointment as straightforward and reassuring as possible for parents and families.</p></div></section>
+  <section className="imageBand"><figure><img src={familyImage} alt="Parent and baby"/></figure><div className="imageBandCopy"><p className="statement">Experience, reassurance and clear support.</p><p>The service is designed to make the appointment as straightforward and reassuring as possible for parents and families.</p></div></section>
 
-  <section className="procedure" id="procedure"><div className="sectionHead"><h2>Quick, careful and professional.</h2><p>A quick procedure carried out with an approach designed to minimise pain and discomfort.</p></div><div className="procedureVisual"><img src={careImage} alt="Baby care"/></div></section>
+  <section className="procedure" id="procedure"><div className="sectionHead"><h2>Quick, careful and professional.</h2><p>A quick procedure carried out with an approach designed to minimise pain and discomfort.</p></div><div className="procedureVisual"><img src={careImage} alt="Family with baby"/></div></section>
 
   <section className="care" id="care"><div className="carePanel"><h2>Support after the procedure.</h2><p>Clear aftercare instructions are provided following the procedure, together with ongoing support should you have any concerns.</p><ul><li>Clear aftercare instructions</li><li>Support available after the procedure</li><li>Experienced guidance for parents and families</li></ul><a className="lightButton" href={'tel:'+phone}>Speak to us</a></div><div className="quote"><span>“</span><p>Care, experience and reassurance at every stage.</p></div></section>
 
