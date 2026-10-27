@@ -4,3 +4,6 @@ footer .builtBy{margin-left:auto!important;justify-self:end!important;display:fl
 
 /* Luton Circumcision FAQs */
 .faq{padding:82px max(7vw,84px);display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(40px,7vw,100px);background:#f7f5ef}.faq h2{font:clamp(36px,3.3vw,48px)/1.12 Georgia,serif;font-weight:normal;margin:0 0 18px;color:#17322c}.faqHeading p{color:#5b6663;line-height:1.7}.faqItems{border-top:1px solid #d7d2c8}.faqItems details{border-bottom:1px solid #d7d2c8;padding:20px 0}.faqItems summary{cursor:pointer;font-weight:bold;color:#173d36;line-height:1.5;padding-right:12px}.faqItems details p{color:#5b6663;line-height:1.7;margin:12px 0 0}.introCopy a{color:#795824;text-underline-offset:3px}@media(max-width:1000px){.faq{grid-template-columns:1fr;padding:68px 24px;gap:24px}.faq h2{font-size:36px}}
+
+/* Google reviews link */
+.reviews{display:grid;grid-template-columns:.9fr 1.1fr;align-items:center;gap:clamp(40px,7vw,100px);padding:60px max(7vw,84px);background:#fff}.reviews h2{font:clamp(32px,3vw,44px)/1.15 Georgia,serif;font-weight:normal;color:#17322c;margin:0 0 12px}.reviews p{color:#5b6663;line-height:1.7;margin:0}.reviews .lightButton{margin:0}@media(max-width:1000px){.reviews{grid-template-columns:1fr;padding:60px 24px;gap:24px}}
